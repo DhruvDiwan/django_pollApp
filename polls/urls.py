@@ -10,4 +10,4 @@ urlpatterns = [
 	#localhost/polls/2/results
 	url(r'^(?P<question_id>[0-9]+)/vote$' , views.vote , name="vote"),
 	#localhost/polls2/vote
-]
+	]
